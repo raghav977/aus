@@ -84,10 +84,15 @@ const toggleButton = document.getElementById('toggleButton');
             // Simple Validation
             if (name === "") {
                 alert("Please enter the patient's name.");
+                
                 return false;
             }
             else if (contact === "") {
-                alert("Please enter contact information.");
+                alert("please Enter contact Number.");
+                return false;
+            }
+            else if(isNaN(contact)){
+                alert("Please enter a valid contact number.");
                 return false;
             }
             else if (dob === "") {
