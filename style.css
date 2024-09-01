@@ -581,7 +581,7 @@ ul{
 
     .fa-bars {
         display: block; /* Show toggle button on smaller screens */
-        border: 1px solid red;
+        /* border: 1px solid red; */
     }
 
     .nav-list {
